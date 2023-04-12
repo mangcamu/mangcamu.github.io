@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+.main{
+    width:100%;
+    background:url(images/pic1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    /*linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),*/
+}
+
+
+.box
+{
+    background-color: black;
+    width: 1200px;
+    float: 75px;
+    margin: auto;
+}
+
+.navbar{
+    width: 1200px;
+    float: 75px;
+    margin: auto;
+   
+}
+.logo{
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 500px;
+    float: right;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 37px;
+    margin-top: 27px;
+    font-size:20px;
+}
+
+ul li a{
+    text-decoration:none;
+    color: #fdf9f9;
+    font-family: Courier New;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+ul li a:hover{
+    color:black;
+}
+
+.container
+{
+    width: 600px;
+    position: absolute;
+    left: 30%;
+    top: 35%;
+    text-align: center;
+}
+
+.container h1
+{
+    color: #fff;
+    font-family: Courier New;
+}
+
+.container p
+{
+    color: #fff;
+    font-family: Courier New;
+    font-size: 25px;
+}
+
+.container .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #3bb0e1;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    font-family: Courier New;
+  }
+  
+.containter .button:hover {background-color: #395bb1}
+
+.container .button:active {
+    background-color: #395bb1;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
